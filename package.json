@@ -37,6 +37,7 @@
   "devDependencies": {
     "@koishijs/plugin-notifier": "^1.2.1",
     "@satorijs/element": "^3.0.0",
+    "@types/node": "^22.1.0",
     "atsc": "^1.2.2",
     "koishi": "^4.17.11",
     "typescript": "^5.5.3",
