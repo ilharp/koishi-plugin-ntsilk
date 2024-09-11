@@ -27,6 +27,7 @@ export class NTSilkService extends Service {
     input:
       | string
       | Buffer
+      | ArrayBuffer
       | Uint8Array
       | number[]
       | Stream
@@ -49,6 +50,8 @@ export class NTSilkService extends Service {
       deleteSrc = false
     } else if (Buffer.isBuffer(input)) {
       await writeFile(srcPath, input)
+    } else if (input instanceof ArrayBuffer) {
+      await writeFile(srcPath, Buffer.from(input))
     } else if (Array.isArray(input)) {
       await writeFile(srcPath, Buffer.from(input))
     } else {
