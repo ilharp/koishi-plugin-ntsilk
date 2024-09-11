@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-ntsilk",
   "description": "优雅地使用 SILK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "yarn@4.4.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
