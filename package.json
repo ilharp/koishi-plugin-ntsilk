@@ -2,6 +2,7 @@
   "name": "koishi-plugin-ntsilk",
   "description": "优雅地使用 SILK",
   "version": "0.1.0",
+  "packageManager": "yarn@4.4.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -38,7 +39,8 @@
     "@satorijs/element": "^3.0.0",
     "atsc": "^1.2.2",
     "koishi": "^4.17.11",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "yml-register": "^1.2.5"
   },
   "koishi": {
     "description": {
