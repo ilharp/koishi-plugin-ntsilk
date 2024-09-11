@@ -24,7 +24,7 @@ export interface Config {}
 export const Config: Schema<Config> = Schema.object({})
 
 const binSuffix = platform === 'win32' ? '.exe' : ''
-const binName = `ntsilk-v1.0.1-${platform}-${arch}${binSuffix}`
+const binName = `ntsilk-v1.0.2-${platform}-${arch}${binSuffix}`
 
 export async function apply(ctx: Context) {
   const l = ctx.logger('ntsilk')
