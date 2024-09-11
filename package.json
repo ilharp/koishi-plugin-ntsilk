@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-ntsilk",
   "description": "优雅地使用 SILK",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +9,45 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "ntsilk",
+    "silk",
+    "qq",
+    "skype",
+    "ffmpeg",
+    "wechat",
+    "weixin",
+    "opus"
   ],
-  "devDependencies": {},
   "peerDependencies": {
+    "@koishijs/plugin-notifier": "^1.2.1",
+    "@satorijs/element": "^3.0.0",
     "koishi": "^4.17.11"
+  },
+  "dependencies": {
+    "env-paths": "^2.2.1"
+  },
+  "devDependencies": {
+    "@koishijs/plugin-notifier": "^1.2.1",
+    "@satorijs/element": "^3.0.0",
+    "atsc": "^1.2.2",
+    "koishi": "^4.17.11",
+    "typescript": "^5.5.3"
+  },
+  "koishi": {
+    "description": {
+      "zh": "优雅地使用 SILK"
+    },
+    "locales": [
+      "zh"
+    ],
+    "service": {
+      "implements": [
+        "ntsilk"
+      ]
+    }
   }
 }
