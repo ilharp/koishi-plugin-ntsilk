@@ -22,6 +22,9 @@
     "weixin",
     "opus"
   ],
+  "scripts": {
+    "build": "atsc -b"
+  },
   "peerDependencies": {
     "@koishijs/plugin-notifier": "^1.2.1",
     "@satorijs/element": "^3.0.0",
