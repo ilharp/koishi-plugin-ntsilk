@@ -24,7 +24,7 @@
     "opus"
   ],
   "scripts": {
-    "build": "atsc -b"
+    "build": "yakumo build"
   },
   "peerDependencies": {
     "koishi": "^4.17.11"
